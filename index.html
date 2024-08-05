@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center;">
+    <form style="display: flex; flex-direction: column; gap: 20px; width: 30%;">
+        <label for="user">Usuario</label>
+        <input id="user" type="text" name="user" placeholder="Ingrese su usuario">
+        <label for="passwd">Contraseña</label>
+        <input id="passwd" type="password" name="passwd" placeholder="Ingrese su contraseña">
+        <label for="country">País</label>
+        <select id="country" name="country">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select>
+        <div>
+            <label for="genero">Género</label>
+            <div>
+                <input id="gen1" type="radio" name="genero" value="masculino" checked>
+                <label for="gen1">Masculino</label>
+            </div>
+            <div>
+                <input id="gen2" type="radio" name="genero" value="femenino">
+                <label for="gen2">Femenino</label>
+            </div>
+            <div>
+                <input id="gen3" type="radio" name="genero" value="otro">
+                <label for="gen3">Otro</label>
+            </div>
+        </div>
+        <div>
+            <label for="comidas">Comidas favoritas</label>
+            <div>
+                <input type="checkbox" name="comidas" value="pizza" id="com1">
+                <label for="com1">Pizza</label>
+            </div>
+            <div>
+                <input type="checkbox" name="comidas" value="hamburguesa" id="com2">
+                <label for="com2">Hamburguesa</label>
+            </div>
+            <div>
+                <input type="checkbox" name="comidas" value="empanadas" id="com3">
+                <label for="com3">Empanadas</label>
+            </div>
+            <div>
+                <input type="checkbox" name="comidas" value="milanesa" id="com4">
+                <label for="com4">Milanesa</label>
+            </div>
+        </div>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
